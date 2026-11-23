@@ -1,0 +1,9 @@
+/*
+ * The packaged dashboard keeps its own design. The site brands it with one
+ * thing — its accent, per appearance (INTEGRATION.md §10). Lexicon's accent is
+ * rubric red, a deep colour carrying white text; on the dark dashboard a lighter
+ * rose of the same red keeps the contrast. Owner monogram, primary buttons,
+ * Confirm, focus rings, selection and the schedule's "now" line follow it.
+ */
+:root .pbe-admin[data-mode='light'] { --pbe-accent: #b0174f; --pbe-accent-text: #ffffff; } /* white on rubric ≈6.9:1 */
+:root .pbe-admin[data-mode='dark']  { --pbe-accent: #f08bb0; --pbe-accent-text: #161a2b; } /* ink on rose ≈8:1 */
