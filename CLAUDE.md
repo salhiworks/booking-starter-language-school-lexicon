@@ -6,7 +6,7 @@ Orleans: a free placement conversation, a French lesson, conversation practice, 
 clinic, exam preparation (DELF · DALF · TCF) and French for work — one student and one lesson per
 booking, in person at one fixed address) for the owner to make their own. Its identity lives in
 `src/site.config.ts`; `CUSTOMIZE.md` is the prompt that personalizes it. Built around
-**@profitstudio/booking-engine** **2.0.0-beta.4** (pinned; lock in `booking-engine.lock.json`). The
+**@profitstudio/booking-engine** **2.0.0** (pinned; lock in `booking-engine.lock.json`). The
 engine owns booking; this project owns the public design.
 
 Read before changing anything:

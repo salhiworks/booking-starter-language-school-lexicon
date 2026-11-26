@@ -25,7 +25,7 @@ carries white text; Noto Serif Display — condensed and heavy for headwords, re
 italic for pronunciations — with Noto Sans; one ornament, the thumb index.
 
 Booking runs on [`@profitstudio/booking-engine`](https://www.npmjs.com/package/@profitstudio/booking-engine)
-**2.0.0-beta.4** (pinned) with your own Supabase project and Resend for email.
+**2.0.0** (pinned) with your own Supabase project and Resend for email.
 
 ## 1. Try it (no accounts needed)
 
@@ -69,7 +69,7 @@ deposits, send meeting links or schedule several teachers (see *What the engine 
 You need a free Supabase project and a Resend account for booking emails.
 
 ```bash
-cp .env.example .env.local    # your Supabase Project URL + Publishable key
+cp .env.example .env.local    # your Supabase Project URL + Publishable key (Windows Command Prompt: copy .env.example .env.local)
 npx supabase@2 login          # once, in your own terminal
 npx booking-engine connect --admin you@example.com
 ```
